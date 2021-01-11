@@ -1,0 +1,12 @@
+
+- AnimalApp
+	Inheritance, Interfaces, abstract, overriding
+- CalculatorApp
+	Arithmatic operators, Overloading
+- FirstProgramApp
+	basics, variable declaration, method declaration, passing variables to methods
+- MonthFinderApp
+	if else, switch, Exceptions, logical operators
+- PrintPatternApp, StarPatternApp
+	for, while, inheritance, interfaces, lots of lines of code.
+- 	

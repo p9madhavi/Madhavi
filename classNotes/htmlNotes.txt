@@ -1,0 +1,56 @@
+
+
+HTML -- hyper text markup language
+   java  ---
+
+xml yaml json csv 
+
+Exercise:
+   create one xml file
+   create one json file
+   create one yaml file   
+   create one csv file
+
+   Person information
+
+,,
+<><>
+
+Visual representaion
+
+
+
+<tagName attributes> content </tagname>
+
+
+
+CSS --- cascading style sheets
+
+------> create a Site 
+
+ ------>  login.html
+        user name inut
+        passwdor input
+
+
+        submit button inside button <a>   ---> index.html
+
+
+index.html
+
+ table of contentls
+   list --- all the notes for days
+     5-6 pages
+
+
+ list final  thing logout --- loginHtml
+     each notes ---  html 
+
+
+
+
+
+
+
+
+

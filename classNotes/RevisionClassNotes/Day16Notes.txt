@@ -1,0 +1,160 @@
+
+
+build management systems
+  Maven,Ant, Graddle, Ivy, puppet..
+
+
+ why build management
+    to makes things easier especially things that we do repeated
+
+
+Maven  --- how to use it.
+  we have to tell it.  Configuration file.. csv, yaml, xml, json
+
+  xml file format.  --- pom.xml
+  pom ---Project Object Model..
+
+
+  directory structure have to followed.
+
+  src
+     main  --java
+             resources
+     test  -- java
+             resources
+
+ ----->   STANDARD PROJECT STRUCTURE         
+
+    my-app
+|-- pom.xml
+`-- src
+    |-- main
+    |   `-- java
+    |       `-- com
+    |           `-- mycompany
+    |               `-- app
+    |                   `-- App.java
+    `-- test
+        `-- java
+            `-- com
+                `-- mycompany
+                    `-- app
+                        `-- AppTest.java 
+
+ The src/main/java directory contains the project source code, 
+ the src/test/java directory contains the test source, 
+ the pom.xml file is the project's Project Object Model, or POM. 
+
+ POM -------> Project Object Model..
+    The pom.xml file is the core of a project's configuration in Maven. It is a single configuration file that contains the majority of information required to build a project in just the way you want. The POM is huge and can be daunting in its complexity, but it is not necessary to understand all of the intricacies just yet to use it effectively.                              
+
+
+main tag is <build>
+     we will tell what we want
+        plugins --- the tools/programs 
+
+1. compile -- compiler          compiler   ---> target compile
+2. run      -- exec plugin      exec      ----> target java
+
+
+jar ---  java archives
+war  --- web archives
+ear ---  enterprise archives
+
+
+5 ones are 5 --- 
+5 twos are 10
+
+5 
+5 + 5
+5 + 5 + 5
+
+5 onja 5 
+
+
+
+
+PROPERTIES :
+
+
+   props.load  -- either takes a reader or input stream
+   Reader 
+   InputStream
+
+   	Reader
+   	  File aFile = new File("\\src\\main\\resources\\configFile.cfg");
+   	  Reader aReader  = new FileReader(aFile);
+
+   	  properties.load(aReader);
+
+   	InputStream
+
+   	InputStream inputStream = new PropertiesDemoApp().getClass().getResourceAsStream("/menuConfig/configFile.cfg");
+
+   	properties.load(inputStream);
+
+   CoffeMenu.cfg
+   
+   regularCoffee=3
+   cappucino=5
+   frappucino
+
+
+load -- values
+
+   ::::::::::::::::::::::::
+   ::: COFFEE MENU ::::::::
+   Regular Coffe    $3
+   Capp
+
+
+   ::::::::::::::::::::::::::
+   :::::::::::::::::::::::::
+
+
+Code management system
+Code repository
+Version control system (VCS)
+
+
+GIT
+---------
+
+	GitHUb is the company that provides services.   
+	GitLab
+	BitBucket
+
+
+
+git terms
+
+   repo  --- repository --  Folder
+   push --- sending code files
+   pull --- getting code from server
+   
+   clone --- copy entire folder
+   			entire project get copied
+
+   add  -- to start tracking
+
+   commit   --- saving the file, creates a version   			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+Exercise :
+   do substring with two index and all negative scenarios
+
+URLParser    
+
+url = "http://www.kubecloudsinc.com/autotools"
+		"http://24.106.206.2:10080/autotools"
+
+protocol, domain name, path, ipaddress, port number.
+
+
+
+public URLObject parseURL(String url) throws InvalidURLFormat
+
+Operators:
+
+Arithematic
++ --
+
+logical  --- boolean value 
+
+two or more comparision statement
+boolean values
+or   ---- truth 
+and 
+not
+
+Comparision
+>, ==
+
+Uniary
+ =
+ 
+ int aInt = 5;
+ int bInt = 10;
+
+ aInt > bInt
+

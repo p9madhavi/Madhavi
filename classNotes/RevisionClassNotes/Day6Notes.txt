@@ -1,0 +1,89 @@
+Inheritance
+
+Protected Variables are Visible Only In Child Classes;
+
+Private Variables are Not accessible in other classes including child Classes;
+
+Abstrct Classes can not be create ,i.e You cannot say Animal anAnimal = new Animal();
+
+If super class has a abstract Method then subclass at a minimum has to implement the abstract methods
+   that is why Dog class has to Implement Says() method when it is defined as abstract in animal class;
+
+   If You want all child classes to implement a particular method then to enforce all child classes implement this method you make this
+   method as abstract in super class
+
+   exercise::
+
+   implement cat ,cow classes...
+
+   if I want to access a Variable which has the same name  in both child and parent class then i will use "this" and "super" keywords;
+  
+  I Can refer to the child class(human,dog,cat,cow etc) using the parent class variable (Animal anAnimal). This is bcoz java supports ""Polymorphism""
+
+  To Create Interface I use the interface keyword(public interface Pet),I will save the file with the same name as the interface with .java extension;
+
+  All methods  mentioned in Interface doesnt have implementation hence they look exactly like abstract methods except there will be no abstract keyword;
+
+  An Interface is an Abstract Object hence can not be instantiated(i.e you cannot say Pet aPet = new Pet();)
+
+  When You access an object via Interface Variable ,then you can only access the methods in the interface and all the other methods in the object are unavailable( cannot say aDogPet .says());
+
+
+  For an Object to implement an Interface It has to implement all the methods in the interface;
+
+Exercise:
+
+     class PrintPattern
+      {
+      	abstract void printStarTriangle(String stringNumber) throws NotAValidNumberException, NotEvenANumberException;
+      	abstract void printNumberTriangle(String stringNumber) throws NotAValidNumberException, NotEvenANumberException
+      	abstract void printStarPyramid(String stringNumber) throws NotAValidNumberException, NotEvenANumberException
+      	abstract void printNumberPyramid(String stringNumber) throws NotAValidNumberException, NotEvenANumberException
+      }  
+
+      interface PrintStarPattern{
+      	void printStarTriangle(String stringNumber) throws NotAValidNumberException, NotEvenANumberException
+  		void printStarPyramid(String stringNumber) throws NotAValidNumberException, NotEvenANumberException
+      }
+
+      interface PrintNumberPattern{
+      	void printNumberTriangle(String stringNumber) throws NotAValidNumberException, NotEvenANumberException
+  		void printNumberPyramid(String stringNumber) throws NotAValidNumberException, NotEvenANumberException
+      }
+
+      class PrintPatternFor extends PrintPattern implements PrintStarPattern,PrintPyramidPattern
+
+      class PrintPatternWhile extends PrintPattern implements PrintStarPattern,PrintPyramidPattern
+
+
+      PrintPatternApp{
+
+      	// for every method in PrintPattern test the methods are working
+      		// For
+      		// While
+      			// 3 cases one for notValdiNumber, not evena number, valid case
+      			//    "Something" "-3 or 0" "5"
+
+			PrintPattern aPattern = new PrintPatternFor();
+				// test 4 methods
+			aPattern = new PrintPatternWhile();
+				// test 4 methods
+
+				:::: testiung for loo startriangle
+				:::  testing for loop stra pyramid
+
+			PrintStarPattern aStraInterface = new PrintPatternFor();
+			// two methods
+				while loop
+				// two methods
+
+				pyramid insterface
+				for 2 
+				while loop			
+       }
+
+
+
+
+
+

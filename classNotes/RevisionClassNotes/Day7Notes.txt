@@ -1,0 +1,54 @@
+
+
+Important classes in java that we need to be familiar with
+	String
+	Wrapper Classes
+
+java doc reference - google javadoc class name and java version
+
+exception bubbling
+
+java.lang pacakge is avaialble by default and hence I don't have to import.
+
+String has special way fo creation which doesn't include the "new" keyword
+     String aString = "javatraining";
+     String soemString = new String("sivareddy");
+
+Exercise: 
+	compareTo
+	compareToIgnorecase
+	concat
+	contains
+	equals
+	equalsIgnorecas   --- madhavi MADHAVI
+	isEmpty
+	substring
+	toLowercase
+	toUppercase
+
+Integer
+Double
+   floatValue()
+   intValue()
+   equals
+   compareTo
+   toString
+
+Arrays 
+ -- arrays are nothing but group of same things
+    String firstString
+    String secondString
+
+    -- how to create a empty array without initialization
+    -- hot to initialize each member of the array
+    -- how to create and initialize  at the same time
+    	String [] array = {"one", "two"};
+    -- how to iterate an array using for loop
+
+exercise:
+    find a number in int array
+    find a max number in the array
+    find min number int he array
+
+    write all test cases and run the app method    
+

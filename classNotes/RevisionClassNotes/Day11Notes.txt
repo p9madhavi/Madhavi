@@ -1,0 +1,53 @@
+
+
+we can chain methods 
+
+Exercise: 
+   
+"sam,125 davis dr,Cary,NC"
+"John,225 morris dr,Durham,GA"
+"Siva,23 pleasant dr,Durham,GA"
+"Reddy,578 shilloh dr,Cary,NC"
+"Mark,12 chapel dr,Morrisville,VA"
+"Robert,13 high dr,,NC"
+"Lisa,87 low dr,Durham,"
+
+  create a String [] with above data
+  Address
+     Name, street, city, state
+   create a address array
+     --  make sure that city is not empty
+     -- make sure that satte is not empty
+
+  AddressCollection
+     Address []
+     String []
+
+       populateData()  ----  strings --- address
+       
+       countCities()   ---  address [] 
+          city - address
+          cary - 2
+          durham - 2
+          Morrisiville -1
+
+       countStates() --             
+
+
+PersonCollection
+
+	"Sam,reddy,engineer,cary,40"
+	"john,frost,accountant,morrisville,30"
+	",medes,driver,durham,25"
+	"julie,,teacher,chapelHill,32"
+	" ,vijay,painter,apex,34"
+	"Mark,roy,dancer,apex,23"
+	"George,reddy,artist,Cary,36"
+
+	
+
+
+
+Collections:
+
+	a group of things...

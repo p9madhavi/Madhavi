@@ -1,0 +1,12 @@
+2020-08-23 23:07:22 ERROR MonthFinderByMapApp:211 - Test for the monthNumber 12: PASSED
+2020-08-23 23:07:22 DEBUG MonthFinderByMap:32 - INSIDE THE findMonth method
+2020-08-23 23:07:22 INFO  MonthFinderByMap:37 - About to parse the string into integer
+2020-08-23 23:07:22 ERROR MonthFinderByMapApp:226 - The monthNumber you entered is not  a validmonthnumber
+2020-08-23 23:07:22 ERROR MonthFinderByMapApp:231 - Test for the monthNumber -5: PASSED
+2020-08-23 23:07:22 DEBUG MonthFinderByMap:32 - INSIDE THE findMonth method
+2020-08-23 23:07:22 INFO  MonthFinderByMap:37 - About to parse the string into integer
+2020-08-23 23:07:22 ERROR MonthFinderByMapApp:244 - The monthNumber you entered is not  a validmonthnumber
+2020-08-23 23:07:22 ERROR MonthFinderByMapApp:249 - Test for the monthNumber 115: PASSED
+2020-08-23 23:07:22 DEBUG MonthFinderByMap:32 - INSIDE THE findMonth method
+2020-08-23 23:07:22 INFO  MonthFinderByMap:37 - About to parse the string into integer
+2020-08-23 23:07:22 ERROR MonthFinderByMapApp:260 - The monthNumber you entered is not even a number

@@ -1,0 +1,108 @@
+
+
+Test plan 
+
+
+    Agile methodology
+    	backlog grooming --- user stories groomed
+
+
+    WaterFall model
+
+
+
+    Business req -- high level
+	Employee search should have search fields by first name and last name where both the fields are mandatory
+
+      --- System Reg
+      	1. FirstName label should have *
+      	2. LastName label should have *
+      	3. if empty then error message thrown
+
+
+
+version 1.0  major.minor
+	---  bug support --- fix
+	1.1   
+	1.2
+	1.3
+
+
+
+version 2.0
+   --- 2.1
+
+
+Test Plan:
+
+   Audience:  who all need to see this document
+       Business analyst, dev, qa   -- stake holders
+
+   Scope:
+     1. in scope
+     		Functional & data & ui
+     2. out of scope     
+     		performance testing
+
+   Test Environment:
+
+   Test Strategy
+       how i will do it
+
+   Test communication plan
+
+   Tes entrance criteria
+      smoke 
+      unit testing results
+
+   Test exit criteria
+     bugs severe & very high
+
+  Results
+      total test executed
+      total bugs raised
+      total bugs fixed
+
+
+cache   --- cash(money)  --- soudn is same 
+catch
+
+Browser Automation:::::
+
+Mobile Automation,APM
+
+
+
+
+
+
+
+                             		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+
+unit testing ---we can see code.
+   white box testing
+
+black box
+   won't see code
+   System testing
+   Integration
+
+
+System is a complicated components/modules . [group of classes in java ,group of tables in Database, like that ]      
+Multiple systems --- integration testing
+
+Browser --->  WebServer  --- > database 
+        <---             <----
+---->Testing framework
+   		BDD framework [Behaviour Driven Developement]
+
+Cucumber is BDD test framework
+    behaviour explaining tests --- Gherkins language
+     ---> code tie up and run the code   
+
+
+---->>  Advantages of Cucumber Over Other Tools
+ a) Cucumber supports different languages like Java.net and Ruby.
+ b) It acts as a bridge between the business and technical language. We can accomplish
+this by creating a test case in plain English text.
+c) It allows the test script to be written without knowledge of any code, it allows the
+involvement of non-programmers as well.
+d) It serves the purpose of end-to-end test framework unlike other tools.
+e) Due to simple test script architecture, Cucumber provides code reusability.
+
+GIVEN
+WHEN THEN
+
+Scenario
+
+Feature   
+
+
+Important FrameWork Methods::::::::::::::::::
+
+   Assert.assertEquals(sum.intValue(),result.intValue());  ------>Calculator Addition and result is equal to addition
+
+ Assert.assertTrue(false);   |
+  Assert.assertTrue(true);   |--------> used in the Cucumber FrameWork
+
+   Assert.assertEquals(monthName, "February");   -----> TestNG
+
+ -------->>>>  AddressCollection
+       test cases
+
+       positive:::
+
+       1.populate the data
+
+         provide valiid string data
+            create class
+            pass test data to the constructor
+            call populate data
+            check total of addresses
+
+
+            if the address format is wrong ,it should not display the address
+          provide invalid string data
+             create class
+             pass test data
+
+       2.printing the addresses
+       3.count the states
+       4.count the cities
+
+       when we enter the incorrect username and pass
+
+
+
+       User is already on login page
+           enter userrname
+           enterpas
+           click submit
+          observe the error msg
+
+
+
+Feature: parse data
+
+  Senario: valid data need to be converetd to address
+  	Given a AddressCollection class
+  	And valid string "sam,125 davis cary,NC" is provided
+  	Then the ttotal count should be 0
+
+
+Feature counts
+
+   Scenario count city
+   	Given a AddressColel class
+   	And valid string "sam,125 davis dr,cary,NC" is provided
+   	Then the city "cary" count should be 1
+
+   	@Give()
+   	{
+   	    dummy method 
+   	}
+   	@And  {string}
+   	   String validData
+   	{ 
+
+   		List<String> addreeses = new Array...<>()
+   		adde.add(validData)
+   	addres =  new addre(addresss)}
+
+   	@Then  {string} count should be {int}
+       (String city, int extpected count )
+   	}
+   	{
+   		addCocll.populate
+   		assertEquals addCollec.getCityCount(city), expectedCount
+   	}
+
+   

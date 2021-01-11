@@ -1,0 +1,75 @@
+1.write down the steps to associate files with applications
+Ans:::
+a) Right Click On The Text File ---> Select OpenWith ---->Other Options --->Select More Apps -----> Choose The Required App (Let's Say Sublime)
+   ------> And Then check Mark the Option " Always Use This App To Open The Files"...
+
+ 2.  1. write 10 absolute and relative paths.
+       test them with cd command
+
+       Absolute Path Examples:::
+
+  		 1.C:\Users\Jagadeesh\Madhavi\JavaTraining\examples\WrapperExample.java
+         2.C:\Users\Jagadeesh\Madhavi\JavaTraining\apps\FileExampleApp.java
+         3.adeC:\Users\Jagesh\IdeaProjects\JavaTraining\.idea\libraries
+         4.C:\Users\Jagadeesh\IdeaProjects\JavaTraining\src\com\examples
+         5.C:\Users\Jagadeesh\IdeaProjects\JavaTraining\out\production\JavaTraining\com\exceptions
+         6.C:\Users\Public\Music
+         7.C:\Users\Jagadeesh\Downloads\commons-io-2.6-bin (1)\commons-io-2.6
+         8.C:\Users\Jagadeesh\Madhavi\classNotes
+         9.C:\Users\Jagadeesh\Madhavi\Practice\bin\com\apps
+         10.C:\Users\Jagadeesh\Madhavi\src\com\vehicles
+
+
+         Realtive Path Examples:::
+
+         1.C:\>cd users\jagadeesh\madhavi
+
+			C:\Users\Jagadeesh\Madhavi>cd ..\..\..
+
+			C:\>
+
+		2.C:\Users\Jagadeesh\Madhavi>cd src\com\examples
+
+		  C:\Users\Jagadeesh\Madhavi\src\com\examples>cd ..\..\
+
+		  C:\Users\Jagadeesh\Madhavi\src>
+
+		3.C:\Users\Jagadeesh\Madhavi\src>cd com\vehicles
+
+         C:\Users\Jagadeesh\Madhavi\src\com\vehicles>cd ..\..\..\..\..\
+
+         C:\Users>
+
+        4.C:\Users\Jagadeesh>cd javatraining
+
+		C:\Users\Jagadeesh\JavaTraining>cd bin
+
+		C:\Users\Jagadeesh\JavaTraining\bin>cd com
+
+		C:\Users\Jagadeesh\JavaTraining\bin\com>cd examples
+
+		C:\Users\Jagadeesh\JavaTraining\bin\com\examples>cd ..\..\..\..\..\
+
+		C:\Users>cd Jagadeesh\JavaTraining\bin\com\examples
+
+		C:\Users\Jagadeesh\JavaTraining\bin\com\examples>
+
+		5.C:\Users\Public\Music to C:\Users\Jagadeesh\Madhavi\src\com
+
+           ..\Jagadeesh\Madhavi\src\com
+
+         6. C:\Users\Jagadeesh\Madhavi\src\com to C:\Users\Jagadeesh\Madhavi\Practice\bin
+
+          ..\..\Madhavi\Practice\bin
+
+
+
+       From Vehicles Folder GO To ClassNotes
+
+       ..\..\..\ClassNotes
+
+
+
+
+
+

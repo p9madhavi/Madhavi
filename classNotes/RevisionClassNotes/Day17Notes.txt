@@ -1,0 +1,197 @@
+Testing
+
+   URLParser
+
+   1. domain name url -- http://www.kubecloudsinc.com/autotools
+
+   domain www.kubecloudsinc.com
+
+   LHS == RHS
+
+   fromCode
+   DomainName   =  www.kubecloudsinc.com
+
+   ActualValue   = ExpectedValue    
+
+   test pass otherwise test fail.
+
+
+Requirements:
+
+  1. Domain name url the parser should give domain name, path and protocol
+  2. ipa ddress url the parser should give ipadd, port, path and protocol
+  3. if url is invalid then error message
+
+test case -- http://domainname/path
+test case --
+test case  ht://fdjkjd/domc
+           http://24.25.6/autp
+           http://24.25.12.12:10080
+
+Monthfiner
+    1 - january
+    2- febru
+    12 -- decem
+
+    String --
+
+number inavlid    
+    >12 
+    <1   
+
+Requirements   ----->   test cases 
+
+Test execution
+  -- run test cases is called test execution
+  manual testing
+  code written to test this is called automation 
+      if I know the code or have access to code it is unit testing
+
+      Selenium doesn't know the code 
+
+Code deploy -- QA team will test it
+
+username : madhavi@kubecloudsinc.com
+pwd: Testing1
+
+Java Enterprise Edition J2EE
+  core Java next       
+
+.NET framework  
+
+   client                  server
+     ----  http  ---------->
+     <----------- HTML   ----
+              payload
+
+we don't know the code    
+
+some test might fail
+   defect or bug
+   		open
+
+     closed or resolve it.
+
+100 test cases again
+  regression.
+
+  feature testing + regression 
+
+  Data validation or data integrity testing
+
+  1. if invalid pwd then error message "bad credentials"  should come.
+  2. message should be dismissable
+
+
+
+  GUI Testing
+  Data validation
+  Functional or feature
+
+ :::::::::::: TestCases For The AutoTools WebApplication::::::::::::
+
+ 1.After opening the webapplication Login It has to show "Login"  on the Menu bar ribbon .
+ 2.Menu Bar ribbon should be black.
+ 3.Down the Menu Bar "Auto Tools" should come with BigFont
+ 4.And in the next line "Login to Auto Tools" should appear  -- ??
+ 5.next login page has to be appear.
+ 6. In the login Page "Login to Auto Tools" with bigfont.
+ 7.Email and Password with textboxes and rememberme in the nextline and "signin"  should be clickable and in the blue color.
+ 8.if we enter the wrong email or wrong password "Your login attempt was not successful, please try again. Bad credentials" this message should appear 
+ 9.this error messge should be dismissable.
+ 10.After login to the next page is with the menu bar is with these Options Auto Tools and employee name and  Employee Details and Region Details.
+ 11.The menu bar should be black .
+ 13.Highlight the  options with whitecolor and the rest should be in the gray color.
+ 14.all the options are clickable ,if you hover the otion and it should be directed to open in the anotherpage.
+ 15.the employee name has drop down with these two options MyProfile and Logout.
+ 16.my profile page contains these options User Form as a heading  and remaining are with the text boxes
+First Name
+
+Last Name
+
+Title
+
+Organization
+
+Email
+Kube Clouds Inc
+Password
+Password Verification
+
+17.save button should be in blue color and clickable.
+18.we must and should enter the firstName,lastName and Email and * symbol next to these options.
+
+19.if we select the EmployeeDetails Options ,the page should appear as Employees as heading and under this  
+Id	First Name	Last Name	Email	Phone Number as options
+20.Id should hover to the another page with employee details  as employee name with Big and bold font and in the next line 
+
+Email:			
+Phone Number:			
+Salary:			
+Manager:			 
+Department:			
+Job Title:	
+
+21.these options should appear.
+
+22. the next line Job History: should appear.
+
+23.Region Details:::
+
+should contain Id and name and name should be with hyperlink and it should directed to another page.
+
+Functional
+   ask what it is doing?
+   gives you the functionality of the application
+
+Login page 
+   --- it will let me login to application
+   			it won't let me login without proper credentials
+   --- it will remember me
+
+User form 
+   ---   I can change user details
+   			i cannot leave name blank
+   ----  I can change password
+
+
+
+Data Validation
+  ask what data is present on the page?
+   gives you indication about data that needs to be validated
+
+
+Test cases have to written in a professional manner
+
+  -- concise(Short and Sweet)
+  -- atomic(no repetetion)
+  -- Unambiguous ()  
+
+Test run -- First Run
+
+
+2 GUI
+4 datavalidation
+4 functional  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

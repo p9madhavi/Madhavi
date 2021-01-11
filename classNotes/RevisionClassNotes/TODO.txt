@@ -1,0 +1,244 @@
+
+
+---   typing 30 mins
+--  update the jira with the tasks done
+--   questions or blockers
+
+
+---   Format the test cases. Check there are no merged cells anywhere in the line.
+
+Q:  ?? --Observe how many items the menu bar has
+A: menu bar has one item
+
+
+Redundant  ---   extra, not needed, unnecessary
+Obsolete
+
+----   Send resume 
+
+--------Linux 
+____________________________________________________________________________________________________
+
+	DOS           ---  Linux
+  MS--windows	        
+
+ ____ client -- server
+    examples :  autotools browser ---> server
+                           client          WebServer  -- 10080
+                           				examples :::: tomcat , WAS, JBoss, Jetty, 
+
+
+                Database (SQLDeveloper)  ---> Database server --  1521
+                                             Oracle
+
+                FTP      WinScp   ----->   ftpServer    
+                                          Linux SFTP server
+
+   ---  linux machine
+           client ----  remote linux computer 
+           putty     --------------    SSH server (Secure Shell)  10022
+
+
+
+ID  ::::::    student2
+ PASSWORD :::::::  KubeC1ouds1!
+
+---------Navigate through  hard driver
+
+---- cd 
+	ls to know the list fo files in the current directory
+	pwd  -- present working directory
+
+
+	C:\Users\Jagadeesh>
+	/home/student2
+
+	   --- no volume
+	   ---  folder seprator is /  -- forward slash -- slash 
+	   ---  folder are called directories in linux/unix
+
+
+	   / ---   root
+	   /home   --- home is inside root folder
+	   /home/student2   -- student2 home folder 
+
+command structure
+
+
+javac -d classes -cp classes src\com\examples\HelloWorld.javac
+
+<<commands>>   <<options>>   <<arguments>.
+               -
+
+
+find out from google simple linux/unix commands
+
+1. command to know when the file has been updated  ----------  ll or ls -rlt[ ls ::: list the directory contents,
+																			ls -rlt :::::: list the directory contents by order]
+2. create a new directory -----------  mkdir directoryname
+
+   remove directory --------- rmdir directoryname  
+
+3. command to create a new file -------- touch filename
+   
+     delete a new file  ------ rm filename
+
+4. command to copy one file into another --------  cp sourcefile name targetfile name
+
+5. delete a file
+
+6 delete a folder
+
+7. cut copy paste a file
+
+8. copy a file from one directory to another directory ------ cp filename directoryname [ cd current directoryname---> pwd ----> ls -rlt]
+
+9. copy all files in a directory to aother directory. ------ cp * directoryname[  cd current directoryname---> pwd ----> ls -rlt]
+
+
+Commands Names:::::::::::::::::
+
+ls help
+
+
+ll
+
+
+history clear
+
+3 groups
+   -- owner   owner-group    others
+
+   Files --  read   write   execute
+               r      w       x
+
+  ----------
+  1234567890
+  -rwxr-xr--
+
+  shell scripts
+
+  chmod will change permissions on filename
+     1 - owner    7   r w x 
+     2 - group    0   - - -
+     3 - others               
+
+     ---  0
+     r--  4
+     -w-  2
+     --x  1
+     rw-  6
+     r-x  5
+     -wx  3
+     rwx  7
+
+
+google what number will give just read permissions
+
+
+I can update or edit files
+
+vi or vim--- the popular editors  
+
+modes -- edit modes
+        command mode
+
+20  --- 
+vi commands in edit mode  
+       w  -- save
+       q  -- quit    
+
+    insert commands       
+
+write a packaged class and app class in java
+and compile and run the java 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

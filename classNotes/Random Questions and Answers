@@ -1,0 +1,81 @@
+1)how to check the equality of two List instances, where the elements of both lists are ordered differently???
+
+Ans::::  https://www.baeldung.com/java-assert-lists-equality-ignore-order
+
+2. Setup
+As per the List#equals Java documentation, two lists are equal if they contain the same elements in the same order. Therefore we can't merely use the equals method as we want to do order agnostic comparison.
+
+Throughout this tutorial, we'll use these three lists as example inputs for our tests:
+
+List first = Arrays.asList(1, 3, 4, 6, 8);
+List second = Arrays.asList(8, 1, 6, 3, 4);
+List third = Arrays.asList(1, 3, 3, 6, 6);
+There are different ways to do order agnostic comparison. Let's take a look at them one by one.
+
+3. Using JUnit
+JUnit is a well-know framework used for unit testing in the Java ecosystem.
+
+We can use the logic below to compare the equality of two lists using the assertTrue and assertFalse methods.
+
+Here we check the size of both lists and check if the first list contains all elements of the second list and vice versa. Although this solution works, it's not very readable. So now let's look at some alternatives:
+
+@Test
+public void whenTestingForOrderAgnosticEquality_ShouldBeTrue() {
+    assertTrue(first.size() == second.size() && first.containsAll(second) && second.containsAll(first));
+}
+In this first test, the size of both lists is compared before we check if the elements in both lists are the same. As both of these conditions return true, our test will pass.
+
+Let's now take a look at a failing test:
+
+@Test
+public void whenTestingForOrderAgnosticEquality_ShouldBeFalse() {
+    assertFalse(first.size() == third.size() && first.containsAll(third) && third.containsAll(first));
+}
+Contrastingly, in this version of the test, although the size of both lists is the same, all elements don't match.
+
+
+
+2)How do I convert a String to an InputStream in Java?
+
+https://stackoverflow.com/questions/782178/how-do-i-convert-a-string-to-an-inputstream-in-java
+
+
+3)Add Maven support to an existing project?
+
+https://www.jetbrains.com/help/idea/convert-a-regular-project-into-a-maven-project.html#add_maven_support
+
+Open an existing project, for example, a Java project.
+
+In the Project tool window, right-click your project and select Add Framework Support.
+
+Project tool window
+In the dialog that opens, select Maven from the options on the left and click OK.
+
+IntelliJ IDEA adds a default POM to the project and generates the standard Maven layout in Project tool window.
+Maven project view
+IntelliJ IDEA also creates a corresponding structure with Lifecycle and Plugins in the Maven tool window.
+Open the generated POM and specify a groupId. The artifactId and version are specified automatically.
+
+4)How can I unit test a method that uses a Scanner and an InputStream?
+
+public int foo(InputStream in) {
+    int counter = 0;
+    Scanner scanner = new Scanner(in);
+    while(scanner.hasNextLine()) {
+        counter++;
+        scanner.nextLine();
+    }
+    return counter;
+}
+Normally I will be passing a FileInputStream to this method, however I want to be able to test it without accessing a physical file.
+
+Should I mock the File object? How to I implement
+
+@Test
+public void shouldReturnThree(){
+
+}
+
+5))) Java - How to use PrintStream/OutputStream to print to the Command Line
+
+https://stackoverflow.com/questions/51625966/java-how-to-use-printstream-outputstream-to-print-to-the-command-line

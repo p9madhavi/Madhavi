@@ -1,0 +1,16 @@
+::::::::::::::::::::::::::::
+::::::: COFFEE MENU ::::::::
+
+   Regular Coffee   ${{rc}}
+   Cappucino		${{c}}
+   Frappucino		${{f}}
+   ChaiLatte 		${{cl}}
+   Americano		${{a}}
+   Espresso			${{e}}
+   Hot Tea			${{ht}}
+   Doppio			${{d}}
+   LongBlack		${{lb}}
+   
+   
+::::::::::::::::::::::::::
+::::::::::::::::::::::::::

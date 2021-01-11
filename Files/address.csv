@@ -1,0 +1,36 @@
+NAME,ADDR-ST-NO,ADDR-CITY,ADDR-STATE
+Siva,216 River Dr,Morrisville,NC
+Madhavi,123 south dr,Cary,NC
+Shalini,256 davis dr,Cary,nc
+Hari,678 shalom dr,Morrisville,NC
+Ravi,347 shiloh dr,Cary,nc
+Rajiv,345 chapel hill rd,Chapel hill, NC
+suraj,378 waka dr,alpharetta,GA
+reddy,298 dream dr,Suvanee,GA
+
+
+morrisville --- 2
+Cary-------3
+ChapelHill-----1
+Alpharetta----1
+Suvanee-------1
+
+Execise:
+  1. count the number of states
+    NC --- 6
+    GA --- 2
+
+  2. list the people in each city
+morrisville ---  
+    Siva
+    Hari
+Cary-------
+     Madhavi
+     Shalini
+     Ravi
+ChapelHill-----
+    Rajiv
+Alpharetta----
+     Suraj
+Suvanee-------
+    Reddy 

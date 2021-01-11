@@ -1,0 +1,14 @@
+Name: sam ::: Street: 125 davis dr ::: City:  CARY ::: State:  NC
+Name: John ::: Street: 225 morris dr ::: City:  DURHAM ::: State:  GA
+Name: Siva ::: Street: 23 pleasant dr ::: City:  DURHAM ::: State:  GA
+Name: Reddy ::: Street: 578 shilloh dr ::: City:  CARY ::: State:  NC
+Name: Mark ::: Street: 12 chapel dr ::: City:  MORRISVILLE ::: State:  VA
+City: MORRISVILLE ::: count: 1
+City: CARY ::: count: 2
+City: DURHAM ::: count: 2
+State::: NC  : count2
+State::: GA  : count2
+State::: VA  : count1
+
+
+

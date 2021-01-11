@@ -1,0 +1,115 @@
+
+
+Unit testing:
+
+ --  Address collection 
+ 		-- check if address got converetd. For example, in our case 5 out 7.
+ 		--- city counts and state count are correct
+ File Example
+ 	 -- test if it read data correctly
+  	-- test if written correctly
+
+ KthLargestSmallest
+ 	-- tets if it found correct values
+
+ MonthFinderByMap
+ 	-- 12 months two exceptions
+
+NumberSearchApp
+	--  test if it is searching properly
+	  max min
+
+personCollection
+	-- check if correct persons are created
+
+primeNumber app
+    -- check if it is returning correct numbers
+
+URLParserApp
+ ---  chek for output
+
+
+
+PrimeNumber
+   --- it has two methods
+   1. it checks if the number is a prime or not
+        -- give a prime number then it should say that it is a prime number
+        -- give 1 and check if it is saying it as prime
+        --- give 2 and check if it si saying that it is prime
+        -- give not a prime number and it should say not a prime number
+   2. it prints all the prime numbers between 0 and the given number
+        -- 1 -- only number
+        --  2 it prints both 1 and 2
+        -- 50  -- check if it prints all the primes
+
+
+   KthLargestSmallest
+ 	 --- it has two methods
+ 	 1.it checks for the kthlargestNumber in the array
+ 	    ----give a kthnumber to check whether we are getting the correct number
+ 	    ----give 
+
+
+ 	MonthFinderByMap
+ 	    ----it has one method to check the month  --  findMonth
+	 	    ----check the monthName for all the monthnumbers( 1 to 12);
+	 	    ----give -2 to check if it is giving NotAValidmonthNumber exception or not
+	 	    ---- give -56 to check if it is giving NotAValidmonthNumber exception or not  
+	 	    -----give 18 to check if it is giving NotAValidmonthNumber exception or not 
+	 	    -----give 100 to check if it is giving NotAValidmonthNumber exception or not
+	 	    -----give anyString to check if it is giving NotEvenANumber exception or not 
+
+
+I'm starting here
+I'm trying to print value: null
+I created a monthFinderByMap class
+created 3 integers a=10 b=10 c=10
+about to call findMonth
+??
+??
+I'm in NotAValidMonthNumber catch block
+created 3 integers a=5 b=5 c=5
+Ending the program bye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

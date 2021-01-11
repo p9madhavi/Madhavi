@@ -1,0 +1,23 @@
+p {
+	font-size: 40px; 
+	background-color: blue;
+}
+
+.tablehead {
+	font-size: 20px; 
+	background-color: orange;
+}
+.my-back-color {
+	background-color: purple;
+}
+.my-back-color-2 {
+	background-color: yellow;
+}
+.my-span-class{
+	font-size: 30px;
+	font-family: arial;
+}
+div{
+	font-size: 100px;
+	font-family: arial;
+}

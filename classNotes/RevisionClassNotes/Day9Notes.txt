@@ -1,0 +1,220 @@
+
+
+===
+ --- Inheritance and interfaces are two different things 
+        even though we discussed at the same time
+     relationships
+        inheritance
+        	parent ---child
+        	super --- sub
+    	interfaces
+    		implmented
+    		implements
+	If a class implments an interface
+	    then it should have all the special methods in the interface and they should be coded.
+
+	Concepts ---
+
+if there is a error on line and we thinkl the line correct (spelling mistake wise)	      
+   then you need to change the thinking
+   	--- depend on your experience
+   	-- think of the concepts
+
+Data Structures, Collections.
+
+Exercise:
+  Stack 
+     implement push pop.
+
+Stack {
+	array [];
+
+	push cannotpUsh{
+			array[counter] = pushed element;
+			counter++
+		}
+	pop cannotPo{
+	
+	return aaray[counter]
+	counter --
+	}
+}     
+
+Exercise:
+  1. see if you can still write absolute and relative paths
+  2. answer the following by looking at each app class
+  		what is the solution class -- firstprogram
+		List the members of the solution class
+  		     fields and methods 
+  		     name fields
+  		     methods name 
+  		     what it takes 
+  		     and what it returns
+ 3. What is the concept that this solution class is teaching me.
+
+ _------->FirstProgramApp  -   FirstProgram
+ 						Members
+ 							fields - firstInteger, aBoolean, firstLong  
+ 							methods
+ 								void showValues --- it takes nothing and it returns nothing
+ 								void intValue(int)----it takes intValue and it returns nothing
+ 								long longValue(long)-----it takes longValue and it returns longValue.
+
+		FirstProgramApp talks about how to pass and get values back from methods.
+		and also it shows how to declare fields and intiitialize them.
+
+	--------->CalculatorApp - Calculator
+	                      Members
+	                        fields - No members;
+	                        methods-
+	                           int add(int,int) ----it takes 2 integer arguments and returns intvalue.
+	                           int substract(int,int)-----it takes 2 integer arguments and returns intvalue.
+	                           int multiply(int,int)------it takes 2 integer arguments and returns intvalue.
+	                           int divide(int,int) throws CanNotDivideException----it takes 2 integer arguments and returns intvalue,and this method will throw  exception when you pass either of the arguments zero.
+
+	                           float add(float,float) ----it takes 2  float arguments and returns  floatValue.
+	                           float substract(float,float)-----it takes 2  float arguments and returns  floatvalue.
+	                           float multiply(float,float)------it takes 2  float arguments and returns  floatvalue.
+	                           float divide(float,float) throws CanNotDivideException----it takes 2  float arguments and returns  floatvalue,and this method will throw  exception when you pass either of the arguments zero.
+
+	    CalculatorApp talks about how to pass and getValues back from Methods,and We tried the method execution in between the  try catch blocks,tried all positive and negative testcases.
+
+	----------->MonthFinderApp - MonthFinder
+	                       
+	                        Members
+	                        fields - No members;
+	                        methods-
+	                          String findMonth(int monthNumber) throws NotAValidMonthNumber--- it takes monthNumber as Input and returns monthName. And this method will throw  exception when you pass Invalid Input. 
+
+	                          String findSeasonBySwitch(String monthName) throws NotAValidMonthName ----- it takes monthName as Input and returns Season. And this method will throw  exception when you pass Invalid Input. 
+
+	                          String findSeasonByIf(String monthName) throws NotAValidMonthName------it takes monthName as Input and returns Season. And this method will throw  exception when you pass Invalid input. 
+
+	    MonthfinderApp talks about how to pass monthNumber and monthName to find the monthName and Season,tried these method In Between the try catch block,and it will throw exception when we enter an invalid monthName /monthNumber ,and tried all the positive and negative test cases
+
+
+	  -------------->StarPatternApp - StarPattern
+	                         Members
+	                         fields- No members
+	                         methods-
+	                         void printStar(int noOfLines) ---it takes noOflines as Input and returns nothing
+	     StarPatternApp will talk about when you pass noOflines then it will print the starPattern Format as Output
+	     
+	   ------------>PrintPatternApp -- PrintPattern------Parent Class and Abstract class
+
+		                               methods::
+		                               	abstract public void printStarTriangle(String stringNumber) throws NotAValidNumber, NotEvenANumber;
+								      	abstract public void printNumberTriangle(String stringNumber) throws NotAValidNumber, NotEvenANumber;
+								      	abstract public void printStarPyramid(String stringNumber) throws NotAValidNumber, NotEvenANumber;
+								      	abstract public void printNumberPyramid(String stringNumber) throws NotAValidNumber, NotEvenANumber;
+
+									   PrintPatternFor ----child1---extends PrintPattern implements PrintStarPattern,PrintNumberPattern
+								        methods::
+								        void printStarTriangle(String stringNumber) throws NotAValidNumber, NotEvenANumber---it will take stringNumber as I/p and returns nothing
+								        void printNumberTriangle(String stringNumber) throws NotAValidNumber, NotEvenANumber----it will take stringNumber as I/p and returns nothing
+								        void printStarPyramid(String stringNumber) throws NotAValidNumber, NotEvenANumber-----it will take stringNumber as I/p and returns nothing
+								         void printNumberPyramid(String stringNumber) throws NotAValidNumber, NotEvenANumber---it will take stringNumber as I/p and returns nothing
+
+
+	                                   PrintPatternWhile----child2 ----extends PrintPattern implements PrintStarPattern,PrintNumberPattern
+	                                   methods::
+								        void printStarTriangle(String stringNumber) throws NotAValidNumber, NotEvenANumber---it will take stringNumber as I/p and returns nothing
+								        void printNumberTriangle(String stringNumber) throws NotAValidNumber, NotEvenANumber----it will take stringNumber as I/p and returns nothing
+								        void printStarPyramid(String stringNumber) throws NotAValidNumber, NotEvenANumber-----it will take stringNumber as I/p and returns nothing
+								         void printNumberPyramid(String stringNumber) throws NotAValidNumber, NotEvenANumber---it will take stringNumber as I/p and returns nothing
+                    
+                            interface PrintNumberPattern----
+                                      methods::void printNumberTriangle(String stringNumber) throws NotAValidNumber, NotEvenANumber;
+  												void printNumberPyramid(String stringNumber) throws NotAValidNumber, NotEvenANumber;
+  							interface PrintStarPattern-----------
+  							           methods:::void printStarTriangle(String stringNumber) throws NotAValidNumber, NotEvenANumber;
+  												 void printStarPyramid(String stringNumber) throws NotAValidNumber, NotEvenANumber;	
+  			PrintPatternApp talks about:::;
+  			                    printStarTriangle ,NumbeTriangle,StarPyramid ,NumberPyramid For  PrintPatternFor,PrintPatternWhile and tried the interface methods for PrintpatternFor and PrintPatternWhile child classes also..,tried all the positve and negative test cases 
+
+  	---------------------->AnimalApp ----Animal --parent and abstract class
+  	                                          Members::
+  	                                            Fields--protected int noOfLegs 
+														protected boolean hasTail 
+
+												methods---
+												      void showProperty() ---- it willnot  take anything and returns nothing
+												      abstract void says() ---- we will define this method in the corresponding child classes, it willnot  take anything and returns nothing
+
+
+										Interfaces---
+										   Pet----
+										       methods::
+										     		 void isCute()----------it wil it willnot  take anything and returns nothing
+										      		 void isPetable()------- it willnot  take anything and returns nothing
+
+
+  	                                     	Cat-----
+  	                                     	     methods::
+  	                                     	         void says()-------it willnot  take anything and returns nothing
+										     		 void isCute()----------it wil it willnot  take anything and returns nothing
+										      		 void isPetable()------- it willnot  take anything and returns nothing
+
+
+  	                                     
+  	                                     Dog-------
+  	                                            methods::
+  	                                                 void showProperty() ---- it willnot  take anything and returns nothing   
+  	                                                 void says()-------it willnot  take anything and returns nothing
+										     		 void isCute()----------it wil it willnot  take anything and returns nothing
+										      		 void isPetable()------- it willnot  take anything and returns nothing
+
+  	                                     Human----
+  	                                             fields---int noOfLegs = 2;
+ 														  boolean hasTail = false;
+ 												 methods---	void showProperty() ---- it willnot  take anything and returns nothing   
+  	                                                 		void says()-------it willnot  take anything and returns nothing	
+
+  	         In the  Animal App class ::::  we can not create the object for animal (Abstract) class and  interface,Instead of creating the object for these classes, created the object for child classes and  Instatntiate the Interface Object for child classes..
+
+  	NumberSearchApp--------NumberSearch
+  	                           fields :: No 
+  	                           methods:::
+  	                              int findNumber(int numberTobeFound) throws NotFound--- it will take the integer input and returns integer output and throws the exception when you send an invalid input..
+
+  	                              int findMax()--- it takes nothing as input and returns integer.
+  	                              int findMin()---- it takes nothing as input and returns integer.    
+
+
+  	           NumberSearchApp  talks about how to pass and get values back from methods,  and tried these methods in between the try catch blocks if any invalid ouptu it will throws exceptiona and tried all the possible test cases(both positive and negative input )   
+  	           
+  	  StringExampleApp ------ stringExample
+  	                          fiels--No
+  	                          methods:::
+
+  	                          char demoCharAt(int index, String aString) throws IndexOutOfBoundsException---It will take a string and index as input and returns char as output.
+  	                          int demoLength(String aString)-----It will take string as I/p and returns integer(length) as o/p
+  	                          String demoToUpperCase(String aString)---It will take string as I/p and returns uppercaseString as O/p
+  	                          String demoToLowerCase(String aString)---It will take string as I/p and returns LowercaseString as O/p  
+  	                          String demoConcat(String aString,string bString)--It will take two strings as I/p and returns concatenatedString as O/p
+  	                           boolean demoEquals(String aString,String bString)---it will take two strings as I/p and returns boolean (true/false) as O/p
+  	                           boolean demoEqualsIgnoreCase(String aString,String bString)----it will take two strings as I/p and returns boolean (true/false) as O/p
+  	                           int demoCompareTo(String aString,String bString)----it will take two strings as I/p and returns integer as O/p
+  	                           int demoCompareToIgnoreCae(String aString,String bString)---it will take two strings as I/p and returns integer as O/p
+  	                           boolean demoIsEmpty(String testString)----it will take string as I/p and returns boolean (true/false) as o/p
+  	                           boolean demoContains(String testString, CharSequence seq)-- it will take string and char as I/p and returns boolean as o/p
+  	                           String demoSubstringOne(String testString, int startIndex) throws IndexOutOfBoundsException --- it will take string and integer as i/p and returns string as o/p and it will throw IndexOutOfBoundsException .   
+
+  	                           String demoSubStringTwo(String aString,int startIndex,int endIndex) throws IndexOutOfBoundsException  ---it will take string and integer and integer as i/p and returns string as o/p   and it will throw IndexOutOfBoundsException .
+
+  	               stringExampleApp talks about how to pass strings and values get strings and boolean values back from methods and  tried all the possible cases.        
+
+  	                                             
+
+
+
+
+        
+
+
+	                           
+
+
+
+
+

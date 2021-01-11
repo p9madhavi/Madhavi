@@ -1,0 +1,151 @@
+
+
+Scrum notes
+
+
+  scrum people :  Product Owner, Scrum Master, Scrum team member
+  				   application    team           dev, qa
+
+
+
+  waterfall : business analyst, project manager, developer, qa, end user, support
+                  reqs            manages           dev     test  uses     maintain
+
+   Scrum : user stories 
+   waterfall    requirements
+
+
+   Scenarios --- use cases ---  development term
+                  1 or more test cases for each use case 
+
+----
+  Login page:
+     menu bar
+        --- color
+        --- one item
+        --- item name
+
+        --  click login --- login page functional
+
+    main login page
+       --- header  font an bold
+       --  email label
+       -- email input box and hint word
+       -- password label
+       --- pwd input box and hint word
+       -- remember me label
+       -- remember me checkbox
+      -- sign in button color
+      -- sign in button text
+
+      -- erro message color 
+      -- error message  font
+      ...  alert bar color
+
+   functional
+      -- correct credentials
+      -- incorrect credentials
+
+
+      -- remember not clciked  --- forget even if not logout
+      
+      -- remeber me ckicked -- remember if not log out
+      -- remeber me clieck --  forget when logout
+      -- error message dismissable
+
+  correct us correct pwd
+  incorrect us incorrect pwd--
+  correct un incorrect pwd
+
+
+  Menu bar:
+
+  	menu bar background color
+  	menu bar no of items
+  	menu bar each item (autotools, fin ln, ...)
+  		font 
+  		highlighted when hover over
+  		each clicked goes to respective page
+
+	second itme data validation
+	dropdown item each item test cases
+
+Welcome page
+   header
+      text 
+      font and bold
+   welcome msg
+      font and bold
+      text
+
+
+My profile/UserForm page
+	
+	header 
+	   font and bold
+	   text
+
+    each label  
+       firstname
+       lastname
+       title
+       organization        --->7 testcases
+       email
+       password
+       password verification
+
+     mandatory has star ( firstname, lastname and email)--> 3 testcases
+
+ 	each input box 
+ 		data validation titl? oraganizaton etc
+ 		update to new value check if it is updating
+ 		success alert 
+ 			disnissable
+ 			color and font
+ 			text
+		error alerts
+		   dismiaable
+		   color and font txt
+	    error msg next to box
+	       text
+	       color and font
+
+	password 	       
+	   two same and change + test case
+	   two different try to change -ve test
+
+	button	   
+	  color
+	  validate
+
+logout ---  already covered  not needed to write seperately
+   remmeber me
+   if remmeber me checked then forget	  
+
+Employee details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

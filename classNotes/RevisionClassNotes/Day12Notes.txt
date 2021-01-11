@@ -1,0 +1,54 @@
+
+String
+Integer
+Double
+
+
+Collections Interfaces
+
+   List Set Queue Dequeue
+
+   List ---  ordered collections
+   		-- duplicates   1 3 1 6 5 8 5
+
+	Set -- unordered collections
+		-- duplicates are not allowed
+
+	Queue  FIFO
+
+	DeQueue FIFO LIFO double queue
+
+List  ---   ArrayList, LinkedList
+Set   ---  HashSet, TreeSet
+
+Map   ---  HashMap, TreeMap
+
+
+Map Key -value -- this is not child of Collections interface
+
+
+  add()
+  remove()	
+  size()	   		
+  contains(element)
+  isEmpty()
+  clear()
+
+  iterator()
+
+Exercise:
+    remaining methods in List
+    exampels in Set  --- try to add duplicates
+    MonthFinder map use map as the 
+
+   AddressCollection -- use list instead of arrays
+      count states
+   PersonCollection -- use set instaed of arrays
+      do this using Set
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+::::::::::::::::::::::::::::
+::::::: COFFEE MENU ::::::::
+
+   Regular Coffee   $3
+   Cappucino		$9
+   Frappucino		$4
+   ChaiLatte 		$6
+   Americano		$7
+   Espresso			$12
+   Hot Tea			$3
+   Doppio			$5
+   LongBlack		$9
+   
+   
+::::::::::::::::::::::::::
+::::::::::::::::::::::::::

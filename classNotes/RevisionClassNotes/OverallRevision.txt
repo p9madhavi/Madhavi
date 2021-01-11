@@ -1,0 +1,44 @@
+
+
+--- Relative paths
+
+--- java compile and run with package classes
+
+--- Write MonthFinder with exceptions
+
+
+--- Write PrintPattern with star, number with inhertiance and interfaces
+         pyramid
+
+--  URLParser
+
+-- Arrays find number, max, min with exceptions
+
+-- PersonCollection with Files
+
+
+Use Maven   	
+File Example
+ 	 -- test if it read data correctly
+  	-- test if written correctly
+
+Restaurant Project  	
+
+
+  	Share all the code into github
+
+
+   --- TestNG
+   --- LoggingFramework
+   --  Cucumber
+   --  Selenium
+   --  Selenium Frameworks
+
+SQL ---   
+Linux
+HTML/CSS/JavaScript
+HTTP
+
+
+
+  	         

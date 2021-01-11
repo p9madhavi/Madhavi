@@ -1,0 +1,38 @@
+Object equality
+
+---  everything is a object in java
+     everybody mother is Object
+
+  super class methods overiding using Intellij generate.
+
+  Object 
+    toString  --- this Object is converted into String.
+      should print relevant data for this class
+
+    equals  --
+      casting --- will convert into another type of obejct  CannotCast
+
+Summary is we have to use equals and hasCode simultaneously ---     
+
+Exercise:
+   implement Person  equals and hasCode
+
+ ComapreTo method :::: is for sorting the 
+ public int compareTo(Person otherPerson) {
+ }  
+
+Object Sorting 
+   madhavi,123 street,cary,nc
+   siva,2 street,alpharatta,va
+
+
+   Notes::::: Files
+   -----------------
+
+    Syntax for file creation::
+    File personFile = new File("C:\\Users\\Jagadeesh\\Madhavi\\PersonFile.txt");
+
+    
+
+
+

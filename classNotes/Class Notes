@@ -1,0 +1,49 @@
+
+
+
+        MadhaviComputer  -----------------
+                                          |
+                                      internet
+                                       |    |
+       Shalini computer ----------------    |
+                                            |
+             Server computer ----------------
+
+
+
+
+          Secure File transfer protocol   --SFTP
+
+
+
+          client ------------  server 
+          client pgm            server program  
+         winSCP                 SFTP server installed
+         sftp CLI (command line interface)
+
+         browser --- iE. chrome
+
+         ip adress is number so we uses another easy to remember name called hostname 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

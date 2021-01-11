@@ -1,0 +1,20 @@
+
+
+
+ tool pattern --- Software  --- set of instructions/code 
+                         byteCode ------------        ------------
+                        |--------|  compiler |-------|  JavaCode |
+                        |         ------------        ------------
+           -------- ----|---
+           |      | |      |
+           |word  | |JVM   |                        applications/apps
+          ------------------------
+          |                |GUI  |           desktop
+          | Operating System---- |      OS   Dock
+         --------------------------          KDE/Plasma/Gnome/XFCE
+         |         CPU            |
+         | Hardware   RAM     ----|      HARDWARE
+         |        Hard drive/     |
+         |        Hard Disk       |
+         --------------------------    ethernet port
+                      <<  Base diagram  >>

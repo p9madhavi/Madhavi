@@ -1,0 +1,502 @@
+
+
+SQL (Structured Query Langauge)
+
+File formats ---   csv, Json, xml, yaml.
+
+   What is Database?
+     an application that manages data and gives the data back in more efficient way which
+        is faster and efficient
+
+
+Models ---
+    Relational Model.
+  The databases that use Relational Model are called RDBMS (Relational Database Management Systems)            
+RDBMS
+   Oracle, DB2, MS SQL Server, MySql
+
+Relational Model     
+   ---  Structured Query Language (SQL ANSI )
+
+   ER Model -- Entity Relationship Model
+
+Data   -- Entity  
+            relations between the entities
+
+
+Customer name, customer address st, customer city, customer state, customer order id,order item1, orderitem2
+
+John, 123 davis, morrisville, nc, 1, oil, paste
+Sam, 345 some dr, cary, nc, 2, rice, milk        
+
+
+CUSTOMER
+   Name
+      Address-  1-1 
+      City -- no relation
+      State -- no relation
+      Order 1-1
+      item -- no relaton
+
+ADDRESS
+   st  
+     customer: 1-1  
+     city: 1-1
+     state: 1-1
+     order: no relation
+     item: no relation
+
+CITY
+   name
+
+      just address 1-1
+
+STATE
+  name
+    just address 1-1
+
+ORDER
+   order id
+
+      Customer : 1-1
+      item: 1-many 
+
+ITEM
+   name
+   	order many-1
+
+
+Relationships  4
+   1-1
+   1-many
+   many-1
+   many-many
+
+TABLE 
+  COLUMN
+
+CUSTOMER 
+    NAME, ID    primary key
+
+
+ORDER 
+    ORDER NO, ORDER_ID primary key, CUSTOMER_ID --- foreign key
+
+ITEM
+    Item_name Item_id primary key , order_id  
+
+Cust        
+1 John      
+2 Sam
+3 Paul
+4 Robert
+
+order    customer_id(unique)  
+1          1                    
+2          2
+3          3
+
+  (order) 1-many  (item)
+1-many  --- you always put the id on the many side 
+
+item       order_id
+1 oil        1
+2 paste       1
+3 milk        2
+4 rice        2
+
+
+Exercise:
+	find out what tables are related (find relatonships between tables)
+	if yes, what type of relationship
+
+
+ Locations ---- Departments
+     1           many
+
+ Coutry ------ Region
+    many         1
+
+ Locations ----- Countries
+      many          1
+
+ Employees ------- Jobs
+    1              many
+
+ Employees ----- Job History
+   1                many
+
+ Employees ------ Departments
+      many            1
+
+CLAUSES
+   SELECT FROM WHERE
+
+SELECT will get the columns needed
+FROM -- from which table 
+WHERE --- filters -- conditions
+
+
+SELECT ---
+FROM (table )
+WHERE -- filter
+
+
+i need all regions names
+
+
+SELECT NAME
+FROM REGIONS
+
+i need all countries name with region_id =1
+
+
+SELECT NAME
+FROM COUNTRY
+WHERE REGION_ID =1
+
+  --- JOIN
+
+  a    d
+  b    e
+  c    f
+
+
+  1-col-1     2-col-1
+    a           d
+    a            e
+    a            f 
+    b           d
+    b            e
+    b            f    
+    c           d
+    c            e
+    c            f 
+
+
+id  name        id    name      fk
+1	Europe      CH	Switzerland	1
+2	Americas    AR	Argentina	2
+3	Asia
+
+product -- multiplication
+cartesion
+
+
+(a,b,c)   (d,e)
+A           B
+
+AXB = {(a,d), (a,e), (a,f),(b,d), (b,e), (b,f),(c,d), (c,e), (c,f)}
+
+1	Europe     CH	Switzerland	1
+2	Americas   CH	Switzerland	1
+1	Europe     AR	Argentina	2
+2	Americas   AR	Argentina	2
+
+ --- on (region_id = region_id)
+
+id   name     cou_id   count    regionId
+1	Europe     CH	Switzerland	1
+2	Americas   AR	Argentina	2
+
+
+INNER JOIN
+
+
+countries in europe
+  Switzerland
+
+select country_name
+join table
+where region_name = europe
+
+
+
+alias
+
+
+
+FROM REGIONS REG
+   JOIN COUNTRIES COU
+     ON ( REG.REGION_ID = COU.REGION_ID)
+
+left                 right
+
+id  name       	 id    name      fk
+1	Europe     	 CH	Switzerland	1
+2	Americas   	 AR	Argentina	2
+3	Asia     	 KW	Kuwait	4
+
+id  name       	
+1	Europe       CH	Switzerland	1   	
+2	Americas   	 CH	Switzerland	1
+3	Asia     	 CH	Switzerland	1     	
+1	Europe     	AR	Argentina	2
+2	Americas   	AR	Argentina	2
+3	Asia     	AR	Argentina	2
+1	Europe      KW	Kuwait	4
+2	Americas    KW	Kuwait	4
+3	Asia     	KW	Kuwait	4
+
+on (regid =reg=id)
+
+
+left join
+1	Europe       CH	Switzerland	1
+2	Americas   	AR	Argentina	2
+3   Asia        null   null     null 
+
+
+right join
+1	Europe       CH	Switzerland	1
+2	Americas   	AR	Argentina	2
+null null       KW	Kuwait	4
+
+outer join
+    ineer + left + right join
+
+1	Europe       CH	Switzerland	1
+2	Americas   	AR	Argentina	2
+3   Asia        null   null     null 
+null null       KW	Kuwait	4
+
+
+sql queries explanation::::
+
+
+
+ int   add(int firstNumber, int secondNumber)
+
+
+
+
+
+
+
+    aCalculator.add(4,5)
+
+
+    month_between(date1, date2)
+
+    month_between(02/10/2020, 08/08/2020)  = 5.9  ~ 5
+
+    lpad(data, numberOfspaces, paddingSymbol)
+    LPAD(SALARY, 15, $)   500
+
+    ---------------
+    5000$$$$$$$$$$$
+
+    King      ************************
+
+    --------------------------
+
+
+GROUP BY
+
+100	Steven	    King		SKING		515.123.4567	17-JUN-03	AD_PRES	24000			90
+101	Neena	    Kochhar		NKOCHHAR	515.123.4568	21-SEP-05	AD_VP	17000		100	90
+102	Lex	De      Haan		LDEHAAN		515.123.4569	13-JAN-01	AD_VP	17000		100	90
+103	Alexander	Hunold		AHUNOLD		590.423.4567	03-JAN-06	IT_PROG	9000		102	60
+104	Bruce	    Ernst		BERNST		590.423.4568	21-MAY-07	IT_PROG	6000		103	60
+105	David	    Austin		DAUSTIN		590.423.4569	25-JUN-05	IT_PROG	4800		103	60
+106	Valli	    Pataballa	VPATABAL	590.423.4560	05-FEB-06	IT_PROG	4800		103	60
+107	Diana	    Lorentz		DLORENTZ	590.423.5567	07-FEB-07	IT_PROG	4200		103	60
+108	Nancy	    Greenberg	NGREENBE	515.124.4569	17-AUG-02	FI_MGR	12008		101	100	
+
+
+what are good groupings
+		job_id,dept_id,manager_id
+
+what are bad groupings
+	First_name,emp_id,last_name,email,phone number,hire_date,salary,
+
+1. MANAGER_ID
+
+	null
+		100	Steven	    King		SKING		515.123.4567	17-JUN-03	AD_PRES	24000			90	
+    100
+    	101	Neena	    Kochhar		NKOCHHAR	515.123.4568	21-SEP-05	AD_VP	17000		100	90
+		102	Lex	De      Haan		LDEHAAN		515.123.4569	13-JAN-01	AD_VP	17000		100	90
+	102
+		103	Alexander	Hunold		AHUNOLD		590.423.4567	03-JAN-06	IT_PROG	9000		102	60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

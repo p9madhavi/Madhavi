@@ -1,0 +1,10 @@
+
+
+Apache log4j   -- log for java
+
+
+java logging
+logback
+slf4j
+springlogging
+hibernatelogging

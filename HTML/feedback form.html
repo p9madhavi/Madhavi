@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--  ^^ this is directive  -->
+<html>
+	<head>
+		<title>Feedback Form</title>
+		<link rel="stylesheet" href=".\myFirstCSS.css" type="text/css" >	
+		<script type="text/javascript"></script>	
+	</head>
+	<body>
+		<h1>Table Of contents</h1>
+		<ul>
+			<li>
+				<a href="./MyFirstHtml.html">Go To First HTML</a>
+			</li>
+			<li>
+				<a href="./MySecondHtml.html">Go To Second HTML</a>
+			</li>
+			<li>
+				<a href="../FutureTopics.txt">Go To Topics</a>
+			</li>
+		</ul>
+		<form>
+			<p>
+				<label>Feedback</label>
+				<input type="text" /><br />
+			</p>			
+			<p>
+				<p>
+					<input type="radio" /><label>Radio option</label><br />
+				
+				 <p>
+				    <input type="checkbox" id="Choice1" name="choice1" value="Subscribe">
+					<label for="Option1"> Subscribe </label><br>
+					<input type="checkbox" id="Choice2" name="choice2" value="Read Notes">
+					<label for="Option2"> Read online</label><br>
+					<input type="checkbox" id="Choice3" name="choice3" value="Save Notes">
+					<label for="Option3"> Save Notes</label><br> 
+			    </p>
+		    </p>
+
+			     <label for="Opinion">Give your opinion:</label>
+
+				<select name="Opinion" id="Opinions">
+				  <option value="Excellent content">Awsome content</option>
+				  <option value="Keep Sharing">Share more</option>
+				  <option value="Not updated">Need to update</option>
+				  <option value="Improvise">Not user Friendly</option>
+				</select> 
+				<br />
+				<button class="my-back-color" onclick="callMethod">Submit</button>
+				<hr />
+
+		</form>
+	</body>
+</html>

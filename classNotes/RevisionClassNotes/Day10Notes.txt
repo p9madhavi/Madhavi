@@ -1,0 +1,41 @@
+
+
+============
+  Great people don't do different things they do different things
+  When one does ones art no service seems hard
+============
+
+
+     Stack implment
+
+Stack {
+	array [];
+
+	push cannotpUsh{
+			array[counter] = pushed element;
+			counter++
+		}
+	pop cannotPo{
+	
+	return aaray[counter]
+	counter --
+	}
+}        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

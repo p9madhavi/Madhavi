@@ -1,0 +1,109 @@
+
+20-30
+
+Class    WebDriver
+		WebElement
+		By
+		FluentWait
+		ExpectedConditions
+
+methods
+      findElement
+      sendkeys
+      click
+      getText
+      getAttribute
+      getCssValue
+      presenceOfElementLocatedBy
+
+
+
+test Case:
+   WelcomePage
+      header is Autotools
+      font weight is 700
+      font size is 38.5px
+
+
+   Footer      
+   	footer text contains kubecloudsinc
+
+   UserForm
+      change firstname
+      check lastname cannot be null
+
+  logout
+     user should be in login page
+
+  Employee details
+      
+     total rows in table is 107
+
+   Employee Search
+      Verify that we could find Jennifer whalen
+      FirstName should not be null
+
+   Region details
+      total 4 regions
+
+    Country
+       Europe countries count
+
+    Locations
+      denmark has "No Locations"    
+      germany country lo 2700 location postal code 80925
+
+    Departments
+       total departments in Seattle location           
+
+
+
+
+:::::::::::::::::  9/4/2020 notes:::::::::::::::
+
+X-Path Explanation::::::::::::
+
+body div div div div ul li
+
+
+DOM
+   document object model
+
+
+   findElement  -- WebElement
+
+html>body>div>div>div>div>ul>li	
+
+   .>ul>li
+
+Xpath  -- notation which will tell me where the elements are in DOM
+
+   just like path.
+
+   abs
+   relative 
+
+   //@tagname[condition]
+
+   relative
+
+   /  -- abosulte
+
+
+   //input[@id='j_username']
+
+
+Frameworks
+	page object model.
+
+	Every Page -------> object
+
+
+Madhavi1234! -- git pwd
+M@dh@vi!------->
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+Selenium Methods::
+
+Selenium Webdriver is an Interface
+
+void	----- close()
+Close the current window, quitting the browser if it's the last window currently open.
+
+WebElement	-----findElement(By by)
+Find the first WebElement using the given method.
+
+List<WebElement> ------	findElements(By by)
+Find all elements within the current page using the given mechanism.
+
+void	-------- get(String url)
+Load a new web page in the current browser window.
+
+String	---------- getCurrentUrl()
+Get a string representing the current URL that the browser is looking at.
+
+String	--------- getPageSource()
+Get the source of the last loaded page.
+
+String	-------- getTitle()
+The title of the current page.
+
+String -------	getWindowHandle()
+Return an opaque handle to this window that uniquely identifies it within this driver instance.
+
+Set<String>	--------- getWindowHandles()
+Return a set of window handles which can be used to iterate over all open windows of this WebDriver instance by passing them to switchTo().WebDriver.Options.window()
+
+WebDriver.Options	--------- manage()
+Gets the Option interface
+
+WebDriver.Navigation -------	navigate()
+An abstraction allowing the driver to access the browser's history and to navigate to a given URL.
+
+void -------	quit()
+Quits this driver, closing every associated window.
+
+WebDriver.TargetLocator	 ----------- switchTo()
+Send future commands to a different frame or window.
+
+
+
+-------  >>>>  Difference Between Implicit Wait and Explicit Wait
+
+Implicit Wait ::: 
+
+Synchronization means ::::::
+ ----- >sink b/w selenium script + selenium execution speed + web application speed
+ ----- > selenium provides synchronization in the form  of implicit and explicit 
+
+ dynamic wait(implicit and explicit ) :::: if the element is identified with in 2 seconds in 20 seconds the rest of 18 secs are ignored.. 
+
+ statice wait example :::::thread.sleep(20)
+
+ ---- > implicitly wait ----- is alawys applied globally  ---- is available for all the elements for which driver is interacting.
+        ||
+        it is global wait
+
+ ------>        
+
+
+
+
+Implicit Wait                                                                    Explicit Wait
+
+
+1)Implicit Wait time is applied 												1)Explicit Wait time is applied only to those 
+to all the elements in the script												elements which are intended by us
+
+2)In Implicit Wait, we need not specify 										2)In Explicit Wait, we need to specify 
+"ExpectedConditions" on the element to be located     							"ExpectedConditions" on the element to be located.		
+
+3)It is recommended to use when the elements are located 						3)It is recommended to use when the elements are taking long 
+with the time frame specified in implicit wait 									time to load and also for verifying the property of the element	
+																  				like(visibilityOfElementLocated, elementToBeClickable,elementToBeSelected)
+
+
+Conclusion:
+
+Implicit, Explicit and Fluent Wait are the different waits used in selenium. Usage of these waits are totally based on the elements which are loaded at different intervals of time. It is always not recommended to use Thread.Sleep() while Testing our application or building our framework.
+
+
+---------------------- How to generate reports? how to tag the failed testcases?
+---------- Headless Brosers in selenium
+---------- Browser Handling methods ? multiple browsers?
+------- how to clear the popups?
+-------- Keyword and DataDriven Automation framework
+
+
+
+command prompt::
+
+first git clone url'
+
+
+IMPORTANT SELENIUM INTVW QUESTIONS::::::
+
+iframe topic
+flakiness of the test ----- flaky test cases
+examples of flaky tests----
+what exceptions will u get in selenium ________  1. Nosuchelement exception
+												2.StaleElementReferenceException
+
+
+errors in Selenium.
+
+10  Common Exceptions in Selenium WebDriver:::::::::::::::::::
+------------------------------------------------------------------
+
+One can find a complete list of Selenium WebDriver Exceptions in the documentation given by Selenium, but below are a few standard Selenium exceptions faced while running a test :
+
+ElementNotVisibleException: In spite of the element being present in the DOM, it is not visible (can not be interactive). For example, elements defined in HTML with type =”hidden”
+
+ElementNotSelectableException: An element is disabled (can not be clicked/selected) in spite of being present in the DOM
+
+NoSuchElementException: Webdriver is not able to determine the elements during runtime, i.e., the FindBy method cannot find a particular component
+
+NoSuchFrameException: Webdriver attempts to switch to an invalid frame, which is unavailable
+
+NoAlertPresentException: Webdriver is trying to switch to an invalid alert, which is unavailable
+
+NoSuchWindowException: Webdriver is trying to switch to an invalid window, which is unavailable
+
+StaleElementReferenceException: The referenced element is no longer present on the DOM page (a reference to a component is now Stale). For example, the item belongs to a different frame than the current one or the user has navigated away to another page
+
+SessionNotFoundException: Webdriver is acting immediately after ‘quitting’ the browser
+
+TimeoutException: The command did not complete in the specified time. For example, the element didn’t display at the specified time. This is especially encountered when working with waits
+
+WebDriverException: Webdriver is acting immediately after ‘closing’ the browser
+Now, as we are aware of the common Exceptions that one can face in Selenium WebDriver, the next step is to understand “How to handle those Exceptions?”
+
+
+

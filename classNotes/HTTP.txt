@@ -1,0 +1,46 @@
+
+
+   Client --- Server
+   request  ----->   
+         <----  response
+
+
+
+Standard ---- HTTP protocol
+
+  you can do only a few types of requests
+    GET  ---90%
+    
+    POST  -- 8 %
+    
+    PUT    ---
+    DELETE
+    ..          
+
+    get me a resource
+       --- html page
+
+       form ---> data -- POST
+
+
+type -- GET or POST
+   headers -->  browser
+      --->> content-type  ---html
+      cookie ---  state information
+
+      stateless       
+response 
+   headers 
+      information
+
+Response code
+   -- 1xx
+   		-- informa
+      2XX
+      	-- success 
+      3XX
+        -- redirect
+      4XX
+        --- authorization
+      5XX
+        --  severe

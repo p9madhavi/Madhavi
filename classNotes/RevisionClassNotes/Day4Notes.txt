@@ -1,0 +1,19 @@
+
+
+1. regression is
+    breaking exisitng working code while trying to fix something
+
+2. Debugging
+       we have to put sysout and then figure out where the error is.  
+
+         Classes are named as nouns
+         Methods are named as verbs
+
+ 3.Scope Of the Variable is With in the blocks;if You define a variable inside if block then it won't be visible outside the if else block
+
+
+ 4. complete multiply and substract methods
+
+    write add, multiply, substract, divide with float
+
+    public float add(float firstNumber, float )

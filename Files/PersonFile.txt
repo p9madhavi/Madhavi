@@ -1,0 +1,8 @@
+sam,reddy,engineer,cary,40
+john,frost,accountant,morrisville,30
+,medes,driver,durham,25
+julie,,teacher,morrisville,32
+vijay,gali,Artist,Apex,34
+Mark,roy,dancer,apex,23
+George,reddy,artist,cary,36
+Madhavi,Jagdeesh,qaAutomation,cary,25
